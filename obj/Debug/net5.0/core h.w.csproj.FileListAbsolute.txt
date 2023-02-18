@@ -1,0 +1,58 @@
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\appsettings.json
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\core h.w.exe
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\core h.w.deps.json
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\core h.w.runtimeconfig.json
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\core h.w.runtimeconfig.dev.json
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\core h.w.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\ref\core h.w.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\core h.w.pdb
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.csproj.AssemblyReference.cache
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.AssemblyInfoInputs.cache
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.AssemblyInfo.cs
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.csproj.CoreCompileInputs.cache
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\staticwebassets\core h.w.StaticWebAssets.Manifest.cache
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\staticwebassets\core h.w.StaticWebAssets.xml
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\scopedcss\bundle\core h.w.styles.css
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.RazorTargetAssemblyInfo.cache
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.csproj.CopyComplete
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\ref\core h.w.dll
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.pdb
+C:\Users\noaha\OneDrive\מסמכים\core h.w\obj\Debug\net5.0\core h.w.genruntimeconfig.cache
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\appsettings.Development.json
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\appsettings.json
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\core h.w.exe
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\core h.w.deps.json
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\core h.w.runtimeconfig.json
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\core h.w.runtimeconfig.dev.json
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\core h.w.dll
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\ref\core h.w.dll
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\core h.w.pdb
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.csproj.AssemblyReference.cache
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.AssemblyInfoInputs.cache
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.AssemblyInfo.cs
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.csproj.CoreCompileInputs.cache
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\staticwebassets\core h.w.StaticWebAssets.Manifest.cache
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\staticwebassets\core h.w.StaticWebAssets.xml
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\scopedcss\bundle\core h.w.styles.css
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.RazorTargetAssemblyInfo.cache
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.csproj.CopyComplete
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.dll
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\ref\core h.w.dll
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.pdb
+D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.genruntimeconfig.cache
