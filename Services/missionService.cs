@@ -1,30 +1,31 @@
 using core_h.w.Models;
+using core_h.w.Interface;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace core_h.w.Controllers
+namespace core_h.w.Services
 {
-    public static class MissionService
+    public class MissionService :IMissionService
     {
-        private static List<mission> missions=new List<mission>
+        private List<mission> missions=new List<mission>
         {
             new mission {Id=1, Name="Noa",Description="wash the floor"},
             new mission {Id=2, Name="Michal",Description="do home work"},
         };
 
-        public static List<mission> GetAll()=>missions;
-        public static mission Get(int id)
+        public List<mission> GetAll()=>missions;
+        public mission Get(int id)
         {
             return missions.FirstOrDefault(m=>m.Id==id);
         }
 
-        public static void Add(mission mission)
+        public void Add(mission mission)
         {
             mission.Id=missions.Max(m=>m.Id)+1;
             missions.Add(mission);
         }
 
-        public static bool Update(int id,mission newMission)
+        public bool Update(int id,mission newMission)
         {
             if(newMission.Id!=id)
                 return false;
@@ -34,7 +35,7 @@ namespace core_h.w.Controllers
             return true;
         }
 
-        public static bool Delete(int id)
+        public bool Delete(int id)
         {
             var mission = missions.FirstOrDefault(m => m.Id == id);
             if (mission == null)

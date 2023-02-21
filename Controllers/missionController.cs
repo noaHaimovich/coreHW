@@ -5,14 +5,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using core_h.w.Models;
+using core_h.w.Interface;
 
 namespace core_h.w.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class missionController : ControllerBase
     {
 
+        private IMissionService MissionService;
+        public missionController(IMissionService MissionService)
+        {
+            this.MissionService=MissionService;
+        }
 
         [HttpGet]
         public IEnumerable<mission> Get()

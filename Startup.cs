@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using core_h.w.Utilities;
 
 namespace core_h.w
 {
@@ -32,6 +33,7 @@ namespace core_h.w
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "core_h.w", Version = "v1" });
             });
+            services.addMission();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
