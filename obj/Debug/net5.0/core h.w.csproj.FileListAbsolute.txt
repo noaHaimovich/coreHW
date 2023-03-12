@@ -56,3 +56,4 @@ D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.dll
 D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\ref\core h.w.dll
 D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.pdb
 D:\Users\noaha\Downloads\core h.w\obj\Debug\net5.0\core h.w.genruntimeconfig.cache
+D:\Users\noaha\Downloads\core h.w\bin\Debug\net5.0\Data\mission.json

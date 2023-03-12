@@ -2,16 +2,38 @@ using core_h.w.Models;
 using core_h.w.Interface;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System;
+using System.Net;
+using System.Text.Json;
+using Microsoft.AspNetCore.Hosting;
 
 namespace core_h.w.Services
 {
     public class MissionService :IMissionService
     {
-        private List<mission> missions=new List<mission>
+        private List<mission> missions {get;}
+        private IWebHostEnvironment  webHost;
+        private string filePath;
+        public MissionService(IWebHostEnvironment webHost)
         {
-            new mission {Id=1, Name="Noa",Description="wash the floor"},
-            new mission {Id=2, Name="Michal",Description="do home work"},
-        };
+            this.webHost = webHost;
+            this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "Mission.json");
+            //this.filePath = webHost.ContentRootPath+@"/Data/Mission.json";
+            using (var jsonFile = File.OpenText(filePath))
+            {
+                missions = JsonSerializer.Deserialize<List<mission>>(jsonFile.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+            }
+        }
+
+        private void saveToFile()
+        {
+            File.WriteAllText(filePath, JsonSerializer.Serialize(missions));
+        }
 
         public List<mission> GetAll()=>missions;
         public mission Get(int id)
@@ -23,6 +45,7 @@ namespace core_h.w.Services
         {
             mission.Id=missions.Max(m=>m.Id)+1;
             missions.Add(mission);
+            saveToFile();
         }
 
         public bool Update(int id,mission newMission)
@@ -33,6 +56,7 @@ namespace core_h.w.Services
             mission.Name=newMission.Name;
             mission.Description=newMission.Description;
             return true;
+            saveToFile();
         }
 
         public bool Delete(int id)
@@ -42,6 +66,7 @@ namespace core_h.w.Services
                 return false;
             missions.Remove(mission);
             return true;
+            saveToFile();
         }
     }
 }
