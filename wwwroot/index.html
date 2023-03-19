@@ -12,7 +12,6 @@
     <h3>Add</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-name" placeholder="New mission">
-        <input type="text" id="add-description" placeholder="New mission">
         <input type="submit" value="Add">
     </form>
 
@@ -20,7 +19,7 @@
         <h3>Edit</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
-            <input type="text" id="edit-description">
+            <input type="checkbox" id="edit-Done">
             <input type="text" id="edit-name">
             <input type="submit" value="Save">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
@@ -31,7 +30,7 @@
 
     <table>
         <tr>
-            <th>description</th>
+            <th>is Done?</th>
             <th>Name</th>
             <th></th>
             <th></th>

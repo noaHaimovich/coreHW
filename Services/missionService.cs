@@ -53,10 +53,12 @@ namespace core_h.w.Services
             if(newMission.Id!=id)
                 return false;
             var mission=missions.FirstOrDefault(m=>m.Id==id);
+            if(mission==null)
+                return false;
             mission.Name=newMission.Name;
-            mission.Description=newMission.Description;
-            return true;
+            mission.Done=newMission.Done;
             saveToFile();
+            return true;
         }
 
         public bool Delete(int id)
@@ -65,8 +67,8 @@ namespace core_h.w.Services
             if (mission == null)
                 return false;
             missions.Remove(mission);
-            return true;
             saveToFile();
+            return true;
         }
     }
 }

@@ -1,11 +1,1 @@
-[{
-    "Id":1, 
-     "Name":"Noa",
-     "Description":"wash the floor"
-    },
- {
-    "Id":2,
-    "Name":"Michal",
-    "Description":"do home work"
-}
-]
+[{"Id":1,"Name":"wash the floor","Done":false},{"Id":2,"Name":"watch the children","Done":true},{"Id":3,"Name":"","Done":false}]

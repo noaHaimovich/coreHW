@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Dyn1yHSOgMV0Nq2LyA8Mkkm1BtaeY6p3noBxR6c9jPcmWB9gKHK43VmpCpXx4LE/S6irzbo+5CCrBaO5MJ1hw==",
+  "dgSpecHash": "BBCNzfGlFffTywwRP+OWFVPv+HyXnQoCAxOrXoLaj9n4X2eTCm3lwFdCkv/FPqeIR5ioFoKnKZUxtTVhncEKyQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\noaha\\Downloads\\core h.w\\core h.w.csproj",
+  "projectFilePath": "C:\\Users\\noaha\\OneDrive\\מסמכים\\core h.w\\core h.w.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noaha\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\noaha\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

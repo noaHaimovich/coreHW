@@ -10,9 +10,8 @@ function getItems() {
 
 function addItem() {
     const addNameTextbox = document.getElementById('add-name');
-    const addDescriptionTextbox = document.getElementById('add-description');
     const item = {
-        Description: addDescriptionTextbox.value.trim(),
+        done:false,
         name: addNameTextbox.value.trim()
     };
 
@@ -28,7 +27,6 @@ function addItem() {
         .then(() => {
             getItems();
             addNameTextbox.value = '';
-            addDescriptionTextbox.value='';
         })
         .catch(error => console.error('Unable to add item.', error));
 }
@@ -46,7 +44,7 @@ function displayEditForm(id) {
 
     document.getElementById('edit-name').value = item.name;
     document.getElementById('edit-id').value = item.id;
-    document.getElementById('edit-description').checked = item.description;
+    document.getElementById('edit-Done').checked = item.done;
     document.getElementById('editForm').style.display = 'block';
 }
 
@@ -54,7 +52,7 @@ function updateItem() {
     const itemId = document.getElementById('edit-id').value;
     const item = {
         id: parseInt(itemId, 10),
-        description: document.getElementById('edit-description').checked,
+        done: document.getElementById('edit-Done').checked,
         name: document.getElementById('edit-name').value.trim()
     };
 
@@ -93,10 +91,10 @@ function _displayItems(data) {
     const button = document.createElement('button');
 
     data.forEach(item => {
-        // let isGlutenFreeCheckbox = document.createElement('input');
-        // isGlutenFreeCheckbox.type = 'checkbox';
-        // isGlutenFreeCheckbox.disabled = true;
-        // isGlutenFreeCheckbox.checked = item.isGlutenFree;
+        let DoneCheckbox = document.createElement('input');
+        DoneCheckbox.type = 'checkbox';
+        DoneCheckbox.disabled = true;
+        DoneCheckbox.checked = item.done;
 
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';
@@ -109,8 +107,7 @@ function _displayItems(data) {
         let tr = tBody.insertRow();
 
         let td1 = tr.insertCell(0);
-        let textNode1 = document.createTextNode(item.name);
-        td1.appendChild(textNode1);
+        td1.appendChild(DoneCheckbox);
 
         let td2 = tr.insertCell(1);
         let textNode = document.createTextNode(item.name);

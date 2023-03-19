@@ -34,6 +34,7 @@ namespace core_h.w
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "core_h.w", Version = "v1" });
             });
             services.addMission();
+            services.AddSingleton<Interface.IMissionService, Services.MissionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

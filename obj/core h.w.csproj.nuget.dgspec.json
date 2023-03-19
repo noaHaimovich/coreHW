@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\noaha\\Downloads\\core h.w\\core h.w.csproj": {}
+    "C:\\Users\\noaha\\OneDrive\\מסמכים\\core h.w\\core h.w.csproj": {}
   },
   "projects": {
-    "D:\\Users\\noaha\\Downloads\\core h.w\\core h.w.csproj": {
+    "C:\\Users\\noaha\\OneDrive\\מסמכים\\core h.w\\core h.w.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\noaha\\Downloads\\core h.w\\core h.w.csproj",
+        "projectUniqueName": "C:\\Users\\noaha\\OneDrive\\מסמכים\\core h.w\\core h.w.csproj",
         "projectName": "core h.w",
-        "projectPath": "D:\\Users\\noaha\\Downloads\\core h.w\\core h.w.csproj",
+        "projectPath": "C:\\Users\\noaha\\OneDrive\\מסמכים\\core h.w\\core h.w.csproj",
         "packagesPath": "C:\\Users\\noaha\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\noaha\\Downloads\\core h.w\\obj\\",
+        "outputPath": "C:\\Users\\noaha\\OneDrive\\מסמכים\\core h.w\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages",

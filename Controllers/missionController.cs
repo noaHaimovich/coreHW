@@ -10,7 +10,7 @@ using core_h.w.Interface;
 namespace core_h.w.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class missionController : ControllerBase
     {
 
